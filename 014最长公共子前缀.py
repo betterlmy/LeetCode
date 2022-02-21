@@ -13,7 +13,8 @@ def longestCommonPrefix(strs: list) -> str:
                 shortest_lens -= 1
                 flag = False
                 break
-        if flag:  return shortest_str[:shortest_lens + 1]
+        if flag:
+            return shortest_str[:shortest_lens + 1]
     return ""
 
 

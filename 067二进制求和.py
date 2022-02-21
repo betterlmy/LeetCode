@@ -27,7 +27,8 @@ def add(a, i):
 
 
 class Solution:
-    def addBinary(self, a: str, b: str) -> str:
+    @staticmethod
+    def addBinary(a: str, b: str) -> str:
         if len(a) < len(b):
             tmp = a
             a = b
